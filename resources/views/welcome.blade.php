@@ -11,7 +11,7 @@
                     @if (count($channels) > 0)
                         @foreach ($channels as $channel)
                             <li class="nav-item"><a href="/channel/{{$channel->id}}" class="nav-link active">{{$channel->name}}</a></li>
-                        @endforeach
+                        @endforeach 
                     @endif
                 </ul>
             </div>
